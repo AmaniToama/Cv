@@ -1,0 +1,50 @@
+body{
+		background-color:#e6e6e6;
+		
+		height :100%;
+		width:100%;
+		padding:0;
+		margin:0;
+		}
+.Amani{
+		font-size:1.5em;
+		font-family:Times New Roman ;
+		text-align :center;
+		
+		}
+.box{border:1px groove black ;
+background-color:#a7a7a7;
+padding:20px;
+margin:10px;
+height:300px;
+width :300px;
+box-sizing:border-box;
+font-family:fantasy ;
+
+
+		}
+		
+		.title{
+				border:0.5px groove black ;
+				width:78px;
+				height:29px;
+				margin-left:200px;
+				margin-right :0px;
+				margin-top:-20px;
+				box-sizing:border-box;
+				text-align:center ;			
+				}
+				#Chaiken{
+						background-color:#ffa2ae;
+						color:#000;
+						}
+						#Beef{
+								background-color:#ff2317;
+								color:white;
+								}
+								#Sushi{
+										background-color:#e6e354;
+										color:black;
+										}
+										
+										
