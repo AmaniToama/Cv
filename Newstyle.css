@@ -16,6 +16,8 @@ body{
 background-color:#a7a7a7;
 padding:20px;
 margin:10px;
+margin-left:auto;
+margin-right:auto;
 height:300px;
 width :300px;
 box-sizing:border-box;
