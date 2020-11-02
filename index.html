@@ -9,36 +9,75 @@
 <!-- Bootstrap Styles -->
 <link rel="stylesheet" href="bootstrap-grid.min.css">
 <link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="navbar-top.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-static/">
+  
+
 </head>
-<div class="dropdown"> 
-<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown 
-</button>
- <div class="dropdown-menu" aria-labelledby="dropdownMenu2"> 
-<button class="dropdown-item" type="button">Action</button> 
-<button class="dropdown-item" type="button">Another action</button>
- <button class="dropdown-item" type="button">Something else here</button> </div>
- </div>
 <body>
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+        <h4 style="color:#92ff5d;">Our menu</h4>
+ 
+          <ul class="list-unstyled">
+            <li><a href="#Chaiken" class="text-white">Chaiken</a></li>
+            <li><a href="#Beef" class="text-white">Beef</a></li>
+            <li><a href="#Sushi" class="text-white">Sushi</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+       
+        <strong id="FoodLLC">Food LLC</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <!-- jQuery (Boostrap JS plugins depend on it) -->
+<script src="jquery.slim.min.js">
+</script>
+<script src="bootstrap.min.js">
+</script>
+
+</header>
+
+
+
+  
 <div class="Amani"><h1>Our Menu</h1></div>
+
 <div class="container container-fluid">
-<div class="box">
+<div id="box-top" class="box">
 <div id="Chaiken" class="title"><b>Chaiken</b></div>
 <br>
-<p>Lorem ipsum dolor amet, consectetur adipi sicing elit,sed do ew smod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud extercitation ullamco laboris nisi ut aliquip ex eu commodo consequat.</p>
+<p>Lorem ipsum dolor amet, consectetur adipi sicing elit,sed do ew smod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud extercitation ullamco laboris nisi ut aliquip ex eu commodo consequat.
+
+<a href="#FoodLLC">back to top</a></p>
 </div>
 </div>
 <div class="container container-fluid">
-<div class="box">
+<div id="box-top" class="box">
 <div id="Beef" class="title"><b>Beef</b></div>
 <br>
-<p>Lorem ipsum dolor amet, consectetur adipi sicing elit,sed do ew smod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud extercitation ullamco laboris nisi ut aliquip ex eu commodo consequat.</p>
+<p>Lorem ipsum dolor amet, consectetur adipi sicing elit,sed do ew smod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud extercitation ullamco laboris nisi ut aliquip ex eu commodo consequat.
+<a href="#FoodLLC">back to top</a></p>
 </div>
 </div>
 <div class="container container-fluid">
-<div class="box">
+<div id="box-bottom"class="box">
 <div id="Sushi" class="title"><b>Sushi</b></div>
 <br>
-<p>Lorem ipsum dolor amet, consectetur adipi sicing elit,sed do ew smod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud extercitation ullamco laboris nisi ut aliquip ex eu commodo consequat.</p>
+<p>Lorem ipsum dolor amet, consectetur adipi sicing elit,sed do ew smod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud extercitation ullamco laboris nisi ut aliquip ex eu commodo consequat.
+<a href="#FoodLLC" >back to top</a></p>
 </div>
 </div>
 </body>
