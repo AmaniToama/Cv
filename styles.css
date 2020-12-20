@@ -1,0 +1,50 @@
+#Cv{
+				background-color:#a80e1c;
+				height:50px;
+				width:cover;
+				padding:40px;
+			
+}
+/* myName */
+.name{ 
+	font-family: 'Texturina', serif;
+	font-size:10px;
+	margin-left:-30px;
+margin-top:-30px;
+text-align:left;
+			
+}
+
+/* Contact */
+.contact{
+font-family: 'Texturina', serif;
+	font-size:10px;
+	text-align:right;
+	margin-right:70px;
+margin-top:-60px;
+				
+}
+
+.list{
+				
+				font-size:8px;
+				text-align:right;
+				margin-right:-30px;
+}
+#email{
+				margin-right:3px;
+}
+#ph{
+				margin-right:90px;
+}
+#wapp{
+				margin-right:55px;
+}
+.edu{
+				
+				
+				
+				font-size: 10px;
+				color:#590f12;
+				text-align:left;
+}
